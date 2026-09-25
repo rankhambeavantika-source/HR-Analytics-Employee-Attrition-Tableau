@@ -1,54 +1,50 @@
 # 📊 HR Analytics – Employee Attrition Analysis | Tableau
 
-## 📌 Project Overview
-
-This project analyzes employee attrition and workforce characteristics using **Tableau**. An interactive HR Analytics dashboard was developed to help HR stakeholders understand employee attrition patterns across departments, demographics, education fields, job roles, gender, age groups, and job satisfaction.
-
-The project transforms raw employee data into an interactive dashboard that supports **workforce analysis, attrition monitoring, and employee-retention analysis**.
+**Transforming employee-level HR data into an interactive Tableau dashboard to analyze employee attrition, workforce demographics, job satisfaction, and employee segments.**
 
 ---
 
-## 🎯 Business Problem
+## 📌 Business Problem
 
-Employee attrition can affect workforce stability, hiring requirements, and employee-retention planning. HR teams need a clear view of **where attrition is occurring and which employee segments show different attrition patterns**.
+Employee attrition can affect workforce stability, hiring requirements, team capacity, and retention planning. However, raw HR data makes it difficult for HR stakeholders to quickly understand **where attrition is concentrated and how it varies across different employee groups**.
 
-This project addresses the following business questions:
+HR teams need answers to questions such as:
 
 * What is the overall employee attrition rate?
-* Which departments have higher employee attrition counts?
-* How does attrition vary across age groups?
-* Which education fields show higher attrition?
-* How does attrition vary by gender and age group?
-* How is job satisfaction distributed across different job roles?
-* What is the current active employee population?
+* Which departments have higher attrition?
+* Which age groups show different attrition patterns?
+* Which education fields have different attrition patterns?
+* How does attrition vary by gender?
+* How is job satisfaction distributed across job roles?
+* How many employees are currently active?
+
+**This project transforms raw HR data into an interactive Tableau dashboard that enables HR stakeholders to explore workforce and attrition patterns through KPIs, visualizations, and interactive filters.**
 
 ---
 
-## 💡 Business Solution
+## 🎯 What I Did
 
-An interactive Tableau dashboard was created to provide HR stakeholders with a centralized view of employee attrition and workforce characteristics.
+1. **Analyzed employee-level HR data** to understand workforce demographics, attrition, job roles, education, gender, age, and job satisfaction.
 
-The dashboard enables users to:
+2. **Created HR KPIs** including total employees, attrition count, attrition rate, active employees, and average employee age.
 
-* Monitor key HR KPIs.
-* Analyze department-wise attrition.
-* Explore employee demographics.
-* Identify attrition patterns across education fields.
-* Compare attrition across gender and age groups.
-* Analyze job satisfaction by job role.
-* Use interactive filters to explore specific employee segments.
+3. **Built interactive Tableau visualizations** to analyze attrition across departments, age groups, education fields, gender, and employee characteristics.
+
+4. **Developed an interactive HR dashboard** using filters and dashboard actions to explore specific employee segments.
+
+5. **Translated the analysis into business-focused findings** to highlight workforce patterns that may require further HR investigation.
 
 ---
 
 ## 📊 Key Performance Indicators
 
-| KPI                  |  Value |
-| -------------------- | -----: |
-| **Total Employees**  |  1,470 |
-| **Attrition Count**  |    237 |
-| **Attrition Rate**   | 16.12% |
-| **Active Employees** |  1,233 |
-| **Average Age**      |     37 |
+| KPI                  |      Value |
+| -------------------- | ---------: |
+| **Total Employees**  |  **1,470** |
+| **Attrition Count**  |    **237** |
+| **Attrition Rate**   | **16.12%** |
+| **Active Employees** |  **1,233** |
+| **Average Age**      |     **37** |
 
 ---
 
@@ -56,148 +52,22 @@ The dashboard enables users to:
 
 ### 1. Attrition Analysis by Department
 
-Analyzed employee attrition across **Human Resources, Research & Development, and Sales** departments to understand how attrition is distributed across different business functions.
+Analyzed employee attrition across **Human Resources, Research & Development, and Sales** departments.
 
-### 2. Employee Distribution by Age
+**Business Use:**
+Helps HR compare attrition patterns across business functions and identify departments requiring further investigation.
 
-Analyzed employee demographics across different age groups to understand the composition of the workforce and explore age-related attrition patterns.
+### 2. Employee Demographic Analysis
 
-### 3. Job Satisfaction Analysis
+Analyzed employee distribution across different **age groups and gender segments**.
 
-Compared job satisfaction levels across different job roles using satisfaction scores from **1 to 4**.
+**Business Use:**
+Helps HR understand workforce composition and explore differences in attrition patterns across demographic segments.
 
-This helps HR teams explore how satisfaction is distributed across different roles.
+### 3. Attrition by Education Field
 
-### 4. Attrition by Education Field
-
-Compared employee attrition across education fields including:
+Analyzed attrition across:
 
 * Life Sciences
 * Medical
-* Marketing
-* Technical Degree
-* Human Resources
-* Other
-
-This enables HR stakeholders to explore whether attrition patterns differ across educational backgrounds.
-
-### 5. Attrition by Gender and Age Group
-
-Analyzed employee attrition across gender and age groups to identify differences in workforce patterns between employee segments.
-
----
-
-## 📈 Key Business Insights
-
-The analysis provides several areas for HR teams to investigate:
-
-* **237 employees** in the dataset are recorded as having left the organization.
-* The overall employee attrition rate is **16.12%**.
-* Attrition patterns can be compared across departments to identify areas requiring further investigation.
-* Younger employee groups can be analyzed for differences in attrition compared with older workforce segments.
-* Education-field analysis allows HR teams to identify employee groups with different attrition patterns.
-* Job satisfaction analysis provides additional context for understanding workforce experience across job roles.
-* Combining demographic and attrition analysis enables more detailed employee-segment analysis.
-
-> These findings describe patterns in the dataset and should be used as a starting point for further HR investigation rather than as evidence of causation.
-
----
-
-## 🛠️ Tools & Technologies
-
-* **Tableau**
-* **Data Visualization**
-* **Dashboard Design**
-* **Interactive Filters**
-* **Dashboard Actions**
-* **KPI Development**
-* **Exploratory Data Analysis**
-* **HR Analytics**
-
----
-
-## 🎛️ Dashboard Features
-
-### Interactive Analysis
-
-* Education Field filter
-* Interactive dashboard actions
-* Department-wise analysis
-* Age-group analysis
-* Gender analysis
-* Education-field analysis
-* Job-role analysis
-* Job-satisfaction analysis
-
-### Dashboard Components
-
-* KPI cards
-* Interactive charts
-* Workforce demographic analysis
-* Attrition analysis
-* Satisfaction analysis
-* Interactive filtering
-
----
-
-## 🖼️ Dashboard Preview
-
-![HR Analytics Dashboard](HR%20analytics%20Dashboard.png)
-
----
-
-## 📁 Project Files
-
-| File                          | Description                           |
-| ----------------------------- | ------------------------------------- |
-| `HR analytics Dashboard.twbx` | Interactive Tableau packaged workbook |
-| `HR analytics Dashboard.png`  | Dashboard preview image               |
-| `README.md`                   | Project documentation                 |
-
----
-
-## 🎯 Project Outcome
-
-This project demonstrates how **Tableau can transform raw HR data into an interactive business intelligence dashboard**.
-
-The dashboard provides HR stakeholders with a centralized view of:
-
-* Employee attrition
-* Active workforce
-* Department distribution
-* Age demographics
-* Education fields
-* Gender patterns
-* Job roles
-* Job satisfaction
-
-The analysis helps HR teams **monitor attrition, explore workforce segments, identify patterns requiring further investigation, and support data-driven workforce and retention analysis**.
-
----
-
-## 💼 Skills Demonstrated
-
-* Data Analysis
-* Exploratory Data Analysis
-* Tableau Dashboard Development
-* Data Visualization
-* KPI Creation
-* Interactive Dashboard Design
-* Business Problem Analysis
-* HR Analytics
-* Data Interpretation
-* Dashboard Actions & Filters
-
----
-
-## 👩‍💻 Author
-
-**Avantika Rankhambe**
-
-Aspiring Data Analyst | SQL | Excel | Power BI | Tableau
-
----
-
-## ⭐ Project Purpose
-
-This project was developed as part of my **Data Analytics portfolio** to demonstrate practical experience in transforming business data into interactive dashboards and actionable analytical insights.
+* M
